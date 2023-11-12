@@ -48,7 +48,7 @@ public class FindCommand extends Command {
             return new CommandResult(Messages.MESSAGE_NO_PATIENT_FOUND);
         } else {
             return new CommandResult(
-                    String.format(Messages.MESSAGE_PATIENTS_LISTED_OVERVIEW, model.getFilteredPersonList().size()));
+                    String.format(Messages.MESSAGE_PERSON_LISTED_OVERVIEW, model.getFilteredPersonList().size()));
         }
     }
 
